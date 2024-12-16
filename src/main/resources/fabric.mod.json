@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "additionsgalore",
+	"version": "${version}",
+	"name": "Additions Galore",
+	"description": "This is a mod that adds everything from bosses to structures to mobs to leveling systems to magic the possibilities are endless.",
+	"authors": [
+		"ItzStellar"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/additionsgalore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.itzstellar.additionsgalore.AdditionsGalore"
+		],
+		"fabric-datagen": [
+			"net.itzstellar.additionsgalore.AdditionsGaloreDataGenerator"
+		],
+		"client": [
+			"net.itzstellar.additionsgalore.AdditionsGaloreClient"
+		]
+	},
+	"mixins": [
+		"additionsgalore.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
