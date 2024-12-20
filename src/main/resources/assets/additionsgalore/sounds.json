@@ -1,0 +1,43 @@
+{
+  "item.scythe.hit": {
+    "sounds": [
+      "additionsgalore:item/scythe_hit"
+    ],
+    "subtitle": "additionsgalore.subtitles.item.scythe.hit"
+  },
+  "item.scythe.spewing": {
+    "sounds": [
+      "additionsgalore:item/scythe_spewing_1",
+      "additionsgalore:item/scythe_spewing_2"
+    ],
+    "subtitle": "additionsgalore.subtitles.item.scythe.spewing"
+  },
+  "entity.blood_scythe.hit": {
+    "sounds": [
+      "additionsgalore:entity/blood_scythe_hit"
+    ],
+    "subtitle": "arsenal.subtitles.entity.blood_scythe.hit"
+  },
+  "item.anchorblade.hit": {
+    "sounds": [
+      "additionsgalore:item/anchorblade_hit_1",
+      "additionsgalore:item/anchorblade_hit_2",
+      "additionsgalore:item/anchorblade_hit_3"
+    ],
+    "subtitle": "additionsgalore.subtitles.item.anchorblade.hit"
+  },
+  "item.anchorblade.throw": {
+    "sounds": [
+      "additionsgalore:item/anchorblade_throw"
+    ],
+    "subtitle": "additionsgalore.subtitles.item.anchorblade.throw"
+  },
+  "entity.anchorblade.land": {
+    "sounds": [
+      "additionsgalore:entity/anchorblade_land_1",
+      "additionsgalore:entity/anchorblade_land_2",
+      "additionsgalore:entity/anchorblade_land_3"
+    ],
+    "subtitle": "additionsgalore.subtitles.entity.anchorblade.land"
+  }
+}

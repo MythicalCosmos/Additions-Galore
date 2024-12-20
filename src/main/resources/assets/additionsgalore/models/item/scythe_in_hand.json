@@ -1,0 +1,6 @@
+{
+  "parent": "additionsgalore:item/template_big_weapon_in_hand",
+  "textures": {
+    "layer0": "additionsgalore:item/scythe"
+  }
+}
